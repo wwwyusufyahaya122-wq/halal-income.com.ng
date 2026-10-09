@@ -17,12 +17,14 @@ nav a { color:white; text-decoration:none; margin:0 10px; font-weight:bold; }
 h1, h2, h3 { color:#0a7a0a; }
 .sponsored { background:#fff8e1; border:1px dashed #ffc107; padding:15px; text-align:center; margin:20px 0; border-radius:5px; }
 .sponsored p { margin:0; font-size:12px; color:#666; }
+.image-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap:15px; margin:20px 0; }
+.image-grid img { width:100%; height:200px; object-fit:cover; border-radius:8px; border:2px solid #0a7a0a; }
+.image-caption { text-align:center; font-size:12px; color:#666; margin-top:5px; }
 table { width:100%; border-collapse:collapse; margin:20px 0; overflow-x:auto; display:block; }
 table, th, td { border:1px solid #ddd; }
 th { background:#0a7a0a; color:white; padding:12px; }
 td { padding:10px; text-align:center; }
 .disclaimer { background:#fff3cd; border-left:4px solid #ffc107; padding:15px; margin:20px 0; }
-.video-ad { width:100%; max-width:700px; margin:20px auto; display:block; border-radius:8px; aspect-ratio: 16/9; }
 footer { background:#0a7a0a; color:white; text-align:center; padding:20px; margin-top:20px; }
 footer a { color:white; text-decoration:underline; margin:0 8px; }
 </style>
@@ -61,13 +63,21 @@ footer a { color:white; text-decoration:underline; margin:0 8px; }
 
 <p>Need urgent cash in Nigeria? Loan apps are the fastest way to borrow money without visiting a bank. But not all loan apps are the same. Some charge 30% interest, while others charge 5%. Some will harass your contacts if you default.</p>
 
-<!-- FINANCE AND LOAN NIGERIA YOUTUBE VIDEO - WORKING -->
-<iframe class="video-ad" src="https://www.youtube.com/embed/7K6wYJ8Q1xE" 
-title="Best Loan Apps in Nigeria 2026" 
-frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-<p style="text-align:center; font-size:12px; color:#666;">Watch: Best Loan Apps in Nigeria 2026</p>
+<!-- 3 FINANCE PICTURES GRID -->
+<div class="image-grid">
+  <div>
+    <img src="https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg" alt="Mobile banking Nigeria">
+    <p class="image-caption">Apply for loans directly from your phone</p>
+  </div>
+  <div>
+    <img src="https://images.pexels.com/photos/4386158/pexels-photo-4386158.jpeg" alt="Loan app on phone">
+    <p class="image-caption">Fast approval in 5 minutes</p>
+  </div>
+  <div>
+    <img src="https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg" alt="Nigeria naira cash">
+    <p class="image-caption">Get cash straight to your bank account</p>
+  </div>
+</div>
 
 <div class="disclaimer">
 <b>IMPORTANT:</b> We are not a lender. This is for information only. Borrow responsibly. High interest rates can lead to debt. Only borrow what you can pay back.
