@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Nigeria Money Guide</title>
+<style>body{font-family:'Segoe UI',Arial,sans-serif;margin:0;padding:0;background:#f5f5f5;color:#333;line-height:1.8}header{background:#0a7a0a;color:white;text-align:center;padding:25px 20px}nav{background:#095a09;padding:14px;text-align:center}nav a{color:white;text-decoration:none;margin:0 12px;font-weight:bold}.container{max-width:900px;margin:20px auto;background:white;padding:35px;border-radius:8px}h1,h2{color:#0a7a0a}.contact-box{background:#e8f5e9;border-left:4px solid #0a7a0a;padding:20px;margin:20px 0}footer{background:#0a7a0a;color:white;text-align:center;padding:25px;margin-top:30px}footer a{color:white;text-decoration:underline;margin:0 10px}</style>
+</head>
+<body>
+<header><h1>Contact Us</h1></header>
+<nav><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a></nav>
+<div class="container">
+<h1>Get In Touch</h1>
+<p>Have a question, complaint, or suggestion about a loan app? We read every email.</p>
+
+<div class="contact-box">
+<h2>Email Us</h2>
+<p><b>General Inquiries:</b> <a href="mailto:contact@halal-income.com.ng">contact@halal-income.com.ng</a></p>
+<p><b>Partnerships:</b> <a href="mailto:partners@halal-income.com.ng">partners@halal-income.com.ng</a></p>
+<p><b>Response Time:</b> We reply within 24-48 hours</p>
+</div>
+
+<h2>Important Note</h2>
+<p><b>We do NOT give loans.</b> Do not send BVN, account number, or money to us. We only provide information. For loan issues, contact the loan app directly.</p>
+
+<h2>Location</h2>
+<p>Nigeria Money Guide<br>Abuja, Federal Capital Territory, Nigeria</p>
+</div>
+<footer>
+<p><b>NigeriaMoneyGuide.com.ng</b></p>
+<a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a> | <a href="privacy.html">Privacy Policy</a> | <a href="disclaimer.html">Disclaimer</a>
+<p>© 2026 NigeriaMoneyGuide.com.ng</p>
+</footer>
+</body>
+</html>
