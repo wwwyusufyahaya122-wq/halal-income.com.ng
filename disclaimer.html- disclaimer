@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disclaimer - Nigeria Money Guide</title>
+<style>body{font-family:'Segoe UI',Arial,sans-serif;margin:0;padding:0;background:#f5f5f5;color:#333;line-height:1.8}header{background:#0a7a0a;color:white;text-align:center;padding:25px 20px}nav{background:#095a09;padding:14px;text-align:center}nav a{color:white;text-decoration:none;margin:0 12px;font-weight:bold}.container{max-width:900px;margin:20px auto;background:white;padding:35px;border-radius:8px}h1,h2{color:#0a7a0a}.warning{background:#fff3cd;border-left:4px solid #ffc107;padding:20px;margin:20px 0}footer{background:#0a7a0a;color:white;text-align:center;padding:25px;margin-top:30px}footer a{color:white;text-decoration:underline;margin:0 10px}</style>
+</head>
+<body>
+<header><h1>Disclaimer</h1></header>
+<nav><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a></nav>
+<div class="container">
+<h1>Important Disclaimer</h1>
+<p><b>Last Updated: October 10, 2026</b></p>
+
+<div class="warning">
+<h2>Financial Information Only</h2>
+<p>NigeriaMoneyGuide.com.ng is NOT a bank, lender, or financial institution. We do not offer loans, financial advice, or investment advice.</p>
+</div>
+
+<h2>1. No Financial Advice</h2>
+<p>The information on this website is for general informational purposes only. Interest rates, loan amounts, and requirements change frequently. Always confirm details directly with the loan app before applying.</p>
+
+<h2>2. Borrow Responsibly</h2>
+<p>Loans should be repaid on time. Defaulting can damage your credit score and lead to legal action. Only borrow what you can afford to repay.</p>
+
+<h2>3. Third Party Links</h2>
+<p>We may link to loan apps. We are not responsible for their terms, privacy policies, or customer service.</p>
+
+<h2>4. Accuracy</h2>
+<p>We try our best to keep information accurate but we are not liable for errors. Rates are verified monthly.</p>
+</div>
+<footer>
+<p><b>NigeriaMoneyGuide.com.ng</b></p>
+<a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a> | <a href="privacy.html">Privacy Policy</a> | <a href="disclaimer.html">Disclaimer</a>
+<p>© 2026 NigeriaMoneyGuide.com.ng</p>
+</footer>
+</body>
+</html>
