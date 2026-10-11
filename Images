@@ -1,14 +1,15 @@
+
 <div class="image-grid">
   <div>
-    <img src="/download%20(3).jpeg" alt="Nigerian Naira Notes 200 500 1000" loading="lazy">
-    <p class="image-caption">₦200, ₦500 & ₦1000 Naira Notes - Front and Back</p>
+    <img src="Images/wa_image_4632044885504075782_0.jpg" alt="Bundles of Nigerian Naira 200 500 1000" loading="lazy">
+    <p class="image-caption">N200, N500 & N1000 Notes - Front and Back</p>
   </div>
   <div>
-    <img src="/download%20(4).jpeg" alt="Naira Cash Bundles" loading="lazy">
-    <p class="image-caption">Bundles of ₦200, ₦500 & ₦1000 Naira Notes</p>
+    <img src="Images/wa_image_4632044885504075782_1.jpg" alt="Hand holding Naira notes" loading="lazy">
+    <p class="image-caption">Bundles of 200 500 1000 Naira Notes</p>
   </div>
   <div>
-    <img src="/download%20(5).jpeg" alt="Stack of Naira Notes" loading="lazy">
+    <img src="Images/wa_image_7967107050440848173_1.jpg" alt="Naira 200 500 1000 collage" loading="lazy">
     <p class="image-caption">Stack of New Naira Notes for Instant Loans</p>
   </div>
 </div>
