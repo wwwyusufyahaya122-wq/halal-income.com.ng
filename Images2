@@ -1,15 +1,10 @@
-
 <div class="image-grid">
   <div>
-    <img src="Images/wa_image_7025254871159674639_0.jpg" alt="Bundles of Nigerian Naira 200 500 1000" loading="lazy">
+    <img src="Images2/wa_image_4588892720086962263_0.jpg" alt="Bundles of Nigerian Naira 200 500 1000" loading="lazy">
     <p class="image-caption">Stacks of ₦200, ₦500 & ₦1000 Notes from Loan Disbursement</p>
   </div>
   <div>
-    <img src="Images/wa_image_7025254871159674639_1.jpg" alt="Hand holding Naira notes" loading="lazy">
+    <img src="Images2/wa_image_4588892720086962263_1.jpg" alt="Hand holding Naira notes" loading="lazy">
     <p class="image-caption">Instant Cash: Get Loans Paid Directly to Your Bank</p>
-  </div>
-  <div>
-    <img src="Images/wa_image_7025254871159674639_2.jpg" alt="Naira 200 500 1000 collage" loading="lazy">
-    <p class="image-caption">New Naira Notes: Know What You Are Borrowing</p>
   </div>
 </div>
