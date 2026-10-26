@@ -1,8 +1,2 @@
 User-agent: *
-Allow: /ads.txt
-Disallow: /my-biggest-lesson-trading-the-halal-way
-Disallow: /halal-affiliate-marketing-earn-without-riba
-Disallow: /building-wealth-the-halal-way-with-trading
-Disallow: /halal-risk-management-for-muslim-traders
-Disallow: /how-much-do-you-need-to-start-your-halal-trading
-Disallow: /blog-learn-halal-income-the-right-way
+Allow: /
