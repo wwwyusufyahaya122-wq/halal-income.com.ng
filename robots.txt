@@ -1,4 +1,5 @@
 User-agent: *
+Allow: /ads.txt
 Disallow: /my-biggest-lesson-trading-the-halal-way
 Disallow: /halal-affiliate-marketing-earn-without-riba
 Disallow: /building-wealth-the-halal-way-with-trading
