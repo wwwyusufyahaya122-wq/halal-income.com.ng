@@ -1,2 +1,7 @@
-    include: ["ads.html"]
-    permalink: /ads.txt
+include: [ads.html]
+defaults:
+    - scope:
+      path: ""
+      type: "pages"
+    values:
+      permalink: /:name
