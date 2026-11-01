@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://halal-income.com.ng/</loc></url>
-  <url><loc>https://halal-income.com.ng/best-wireless-earbuds.html</loc></url>
-  <url><loc>https://halal-income.com.ng/best-budget-laptop.html</loc></url>
-  <url><loc>https://halal-income.com.ng/best-smartwatch.html</loc></url>
-  <url><loc>https://halal-income.com.ng/about.html</loc></url>
-  <url><loc>https://halal-income.com.ng/contact.html</loc></url>
-  <url><loc>https://halal-income.com.ng/privacy-policy.html</loc></url>
-  <url><loc>https://halal-income.com.ng/disclaimer.html</loc></url>
+  
+  <url>
+    <loc>https://halal-income.com.ng/</loc>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://halal-income.com.ng/about</loc>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://halal-income.com.ng/contact</loc>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://halal-income.com.ng/privacy-policy</loc>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://halal-income.com.ng/disclaimer</loc>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://halal-income.com.ng/best-wireless-earbuds</loc>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://halal-income.com.ng/best-budget-laptop</loc>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+
+  <url>
+    <loc>https://halal-income.com.ng/best-smartwatch</loc>
+    <lastmod>2026-11-01</lastmod>
+  </url>
+
 </urlset>
