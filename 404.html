@@ -2,10 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=https://halal-income.com.ng/" />
-  <title>Page Not Found - Redirecting</title>
+  <title>Redirecting...</title>
+  <script>
+    var path = window.location.pathname;
+    // If URL ends with .html, remove .html and redirect to clean URL
+    if(path.endsWith('.html')){
+      var newPath = path.replace('.html', '');
+      window.location.replace('https://halal-income.com.ng' + newPath + window.location.search);
+    } else {
+      // If it's a real 404, send to homepage
+      window.location.replace('https://halal-income.com.ng/');
+    }
+  </script>
 </head>
 <body>
-  <p>Page not found. Redirecting to <a href="https://halal-income.com.ng/">Homepage</a>...</p>
+  <p>Redirecting...</p>
 </body>
 </html>
