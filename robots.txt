@@ -1,6 +1,4 @@
-User-agent: *
-Allow: /
-
-User-agent: Mediapartners-Google
-Allow: /
-Disallow:
+    User-agent: *
+    Allow: /
+    
+    Sitemap: https://halal-income.com.ng/sitemap.xml
