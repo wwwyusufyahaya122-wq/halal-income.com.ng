@@ -32,7 +32,7 @@ body { font-family: 'Segoe UI', Arial, sans-serif; margin:0; padding:0; backgrou
 header { background:linear-gradient(135deg, #0a7a3a 0%, #0c9e4a 100%); color:white; text-align:center; padding:35px 20px; }
 .logo { font-size:28px; font-weight:bold; color:#ffd700; letter-spacing:1px; }
 .tagline { font-size:18px; font-weight:600; margin:8px 0 4px 0; }
-nav { background:#0c5c2e; padding:14px; text-align:center; position:sticky; top:0; z-index:100; }
+nav { background:#0c5c2e; padding:14px; text-align:center; position:sticky; top:0; z-index:100; overflow-x:auto; white-space:nowrap; }
 nav a { color:white; text-decoration:none; margin:0 10px; font-weight:bold; }
 nav a:hover { color:#ffd700; }
 .container { max-width:1100px; margin:20px auto; background:white; padding:40px; border-radius:8px; }
@@ -44,7 +44,8 @@ h3 { color:#111; }
 .author-box { background:#e8f8f0; border-left:4px solid #0c9e4a; padding:16px 20px; margin:20px 0; border-radius:5px; font-size:15px; }
 .author-box a { color:#0a7a3a; font-weight:bold; }
 .author-footer-card { background:#f9fbf9; border:1px solid #cde7d8; border-radius:8px; padding:24px; margin-top:45px; }
-.comparison-table { width:100%; border-collapse:collapse; margin:25px 0; font-size:15px; }
+.table-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+.comparison-table { width:100%; min-width:600px; border-collapse:collapse; margin:25px 0; font-size:15px; }
 .comparison-table th { background:#0c9e4a; color:white; padding:12px; text-align:left; }
 .comparison-table td { padding:12px; border-bottom:1px solid #ddd; }
 .comparison-table tr:nth-child(even) { background:#f9f9f9; }
@@ -58,16 +59,16 @@ h3 { color:#111; }
 .btn:hover { background:#0a7a3a; }
 .btn-mic { background:#ff9800; margin-top:10px; }
 .btn-mic:hover { background:#e68900; }
-.btn-gold { background:#ffd700; color:#111; }
 .disclosure { background:#fff8e1; border:1px solid #ffe082; padding:16px 20px; border-radius:8px; font-size:14px; margin:25px 0; }
 .mistake-box { background:#fdecea; border-left:4px solid #e53935; padding:18px 20px; border-radius:6px; margin:15px 0; }
 .faq { background:#f7f9f7; border:1px solid #ddd; padding:20px; border-radius:8px; margin:15px 0; }
 .faq b { color:#0a7a3a; }
+.ad-box { text-align:center; background:#f9f9f9; border:1px dashed #ccc; padding:10px; margin:25px 0; font-size:12px; color:#888; }
 footer { background:#222; color:#fff; text-align:center; padding:30px 20px; margin-top:40px; }
-footer a { color:#fff; margin:0 10px; text-decoration:none; }
+footer a { color:#fff; margin:0 8px; text-decoration:none; display:inline-block; padding:4px 0; }
 footer a:hover { color:#ffd700; }
 #voice-output { margin-top:10px; font-size:16px; color:#fff8e1; font-weight:bold; }
-@media(max-width:768px){ .container{padding:20px} h1{font-size:26px} }
+@media(max-width:768px){ .container{padding:20px} h1{font-size:26px} .product-grid{grid-template-columns:1fr} }
 </style>
 </head>
 <body>
@@ -80,8 +81,6 @@ footer a:hover { color:#ffd700; }
 </header>
 <nav>
 <a href="index.html">Home</a> |
-<a href="blog.html">Reviews</a> |
-<a href="guides.html">Guides</a> |
 <a href="best-phones-under-100k-nigeria.html">Phones</a> |
 <a href="best-wireless-earbuds.html">Earbuds</a> |
 <a href="best-budget-laptop.html">Laptops</a> |
@@ -90,28 +89,26 @@ footer a:hover { color:#ffd700; }
 <a href="best-bluetooth-speaker-under-20k.html">Speakers</a> |
 <a href="about.html">About</a> |
 <a href="contact.html">Contact</a> |
-<a href="privacy-policy.html">Privacy</a>
+<a href="privacy-policy.html">Privacy</a> |
+<a href="cookie-policy.html">Cookies</a>
 </nav>
 <div class="container">
 <h1>Best Gadgets in Nigeria 2026: We Tested 47 Products So You Don't Waste Your Money</h1>
-
 <div class="hero-alert">
-<b>⚠️ STOP - Read This Before You Buy in 2026:</b> 6 out of 10 gadgets sold as "Original" on Jumia, Konga and in Computer Village are fake, refurbished, or have no warranty in Nigeria. We bought 47 gadgets with our own money in Abuja & Lagos, tested each for 14 days in heat + NEPA, and only 12 passed. Below are the winners.
+<b>⚠️ STOP - Read This Before You Buy in 2026:</b> 6 out of 10 gadgets sold as "Original" on Jumia, Konga and in Computer Village are fake, refurbished, or have no warranty in Nigeria. We bought 47 gadgets with our own money in Abuja &amp; Lagos, tested each for 14 days in heat + NEPA, and only 12 passed. Below are the winners.
 </div>
-
 <div class="author-box">
-<b>Last Updated:</b> November 24, 2026 | <b>Price Checked:</b> Today on Jumia, Konga & Slot | <b>Written &amp; Tested by:</b> <a href="about.html">Yusuf Yahaya</a> - Abuja & Lagos, 47 products tested hands-on<br>
+<b>Last Updated:</b> November 24, 2026 | <b>Price Checked:</b> Today on Jumia, Konga &amp; Slot | <b>Written &amp; Tested by:</b> <a href="about.html">Yusuf Yahaya</a> - Abuja &amp; Lagos, 47 products tested hands-on<br>
 <b>Verify Reviewer:</b> <a href="https://www.linkedin.com/in/yusuf-yahaya-269837401/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a> • <a href="https://whatsapp.com/channel/0029Vb9ZPoWC6ZvrJx4xJ32g" target="_blank" rel="noopener noreferrer">WhatsApp Tech Channel</a> • <a href="contact.html">Contact Yusuf</a>
 </div>
-
 <div class="disclosure">
-<b>Disclosure:</b> Halal Income Tech is reader-supported. When you buy through links, we may earn a small commission from Jumia or Konga at no extra cost to you. This pays for our testing. We never accept money to change a review. Full <a href="disclaimer.html">Disclaimer</a>.
+<b>Disclosure:</b> Halal Income Tech is reader-supported. When you buy through links, we may earn a small commission from Jumia or Konga at no extra cost to you. This pays for our testing. We never accept money to change a review. Full <a href="disclaimer.html">Disclaimer</a> &amp; <a href="cookie-policy.html">Cookie Policy</a>.
 </div>
-
 <p>Buying original gadgets in Nigeria in 2026 is risky. Import duties, dollar rate, and fake sellers make prices change every week. Many people in Lagos, Abuja and Port Harcourt have lost money buying "UK Used" laptops that die in 2 months, or power banks that swell after 1 month.</p>
 <p>At Halal Income Tech, I, Yusuf Yahaya, spend my own money to buy and test gadgets for 14 days minimum. I check 3 things before I recommend: <b>1) Battery life in Nigerian heat (35°C), 2) Warranty valid at Slot / 3Star in Nigeria, 3) Real price in Naira today.</b> No sponsored reviews. No free products from brands.</p>
 
-<h2>🏆 Quick Answer: Top 3 Winners of 2026 (If You Are In A Hurry)</h2>
+<h2>🏆 Quick Answer: Top 4 Winners of 2026 (If You Are In A Hurry)</h2>
+<div class="table-wrap">
 <table class="comparison-table">
 <tr><th>Category</th><th>Winner - Buy This First</th><th>Why It Won</th><th>Price in Nigeria</th><th>Rating</th></tr>
 <tr><td><b>Best Earbuds</b></td><td>Oraimo FreePods 4 Pro</td><td>35hr battery, clear calls in Lagos traffic, ANC works</td><td>₦28,000 - ₦35,000</td><td>⭐ 4.8/5</td></tr>
@@ -119,7 +116,13 @@ footer a:hover { color:#ffd700; }
 <tr><td><b>Best Power Bank</b></td><td>Oraimo 20000mAh</td><td>Charges phone 5 times, survives heat, fast charging</td><td>₦25,000 - ₦32,000</td><td>⭐ 4.9/5</td></tr>
 <tr><td><b>Best Smartwatch</b></td><td>Amazfit GTR 4</td><td>14 days battery, accurate sleep + heart tracking</td><td>₦140,000 - ₦180,000</td><td>⭐ 4.7/5</td></tr>
 </table>
+</div>
 <p><b>Our Promise:</b> If any of these fails in 30 days, email us. We will update the review and tell you. We update prices every week.</p>
+
+<div class="ad-box">Advertisement
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8808956216191989" data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 
 <h2>Our 6 Featured Reviews - Full Test Results Inside</h2>
 <p>Each review is 1200+ words with real test results, pros, cons, fake vs original check, and where to buy safely in Nigeria.</p>
@@ -135,7 +138,7 @@ footer a:hover { color:#ffd700; }
 <span class="badge badge-green">BEST FOR STUDENTS</span>
 <img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="Best Budget Laptop Nigeria 2026" loading="lazy">
 <h3>2. Best Budget Laptops Under ₦500,000</h3>
-<p><b>Winner:</b> HP Pavilion 15. Perfect for students & remote work. Lasts 10 hours on battery during NEPA.</p>
+<p><b>Winner:</b> HP Pavilion 15. Perfect for students &amp; remote work. Lasts 10 hours on battery during NEPA.</p>
 <a href="best-budget-laptop.html" class="btn">Read Full Test →</a>
 </div>
 <div class="product-card">
@@ -161,7 +164,7 @@ footer a:hover { color:#ffd700; }
 <span class="badge badge-green">NEW - UPDATED TODAY</span>
 <img src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Best Phones Under 100k Nigeria 2026" loading="lazy">
 <h3>6. Best Phones Under ₦100,000 in Nigeria 2026</h3>
-<p><b>Winner:</b> Tecno Spark 20. Real prices from Jumia, Konga & Slot. Best battery, camera & for students. No fake phones.</p>
+<p><b>Winner:</b> Tecno Spark 20. Real prices from Jumia, Konga &amp; Slot. Best battery, camera &amp; for students. No fake phones.</p>
 <a href="best-phones-under-100k-nigeria.html" class="btn">Read Full Test →</a>
 </div>
 </div>
@@ -174,6 +177,7 @@ footer a:hover { color:#ffd700; }
 <div class="mistake-box"><b>Mistake 5: Buying From Instagram Vendors Without Location.</b> If they have no shop in Lagos/Abuja, no return policy, don't send money first. Use Pay on Delivery.</div>
 
 <h2>Where To Buy Safely In Nigeria? Jumia vs Konga vs Slot</h2>
+<div class="table-wrap">
 <table class="comparison-table">
 <tr><th>Store</th><th>Best For</th><th>Delivery</th><th>Return</th></tr>
 <tr><td><b>Slot</b></td><td>Phones, Laptops - 100% Original</td><td>Lagos same day, Abuja 2 days</td><td>7 days, easy</td></tr>
@@ -181,6 +185,7 @@ footer a:hover { color:#ffd700; }
 <tr><td><b>Konga</b></td><td>Pay on Delivery</td><td>2-5 days</td><td>7 days</td></tr>
 <tr><td><b>3Star / Computer Village</b></td><td>Expert check, but go with expert</td><td>Same day</td><td>Hard - test before pay</td></tr>
 </table>
+</div>
 <p><b>Our Rule:</b> Never pay full money before you check sealed box + warranty card + charger. If seller refuses, walk away.</p>
 
 <h2>How We Test - Our 14-Day Process (Why You Can Trust Us)</h2>
@@ -188,7 +193,7 @@ footer a:hover { color:#ffd700; }
 <li><b>Day 1-3: Unboxing Check</b> - Is it sealed? Original? Charger 220V? Warranty card?</li>
 <li><b>Day 4-7: Battery Test</b> - Full charge, use with data ON, in Abuja 35°C heat, check real hours</li>
 <li><b>Day 8-11: Real Life Test</b> - Calls, WhatsApp, TikTok, YouTube, in Lagos traffic, during NEPA</li>
-<li><b>Day 12-14: Price & Fake Check</b> - Compare Jumia, Konga, Slot price, check fake vs original, write Pros & Cons</li>
+<li><b>Day 12-14: Price &amp; Fake Check</b> - Compare Jumia, Konga, Slot price, check fake vs original, write Pros &amp; Cons</li>
 </ol>
 <p>If a gadget fails ANY step, we do NOT recommend it. Full process on <a href="about.html">About Page</a>.</p>
 
@@ -205,7 +210,6 @@ footer a:hover { color:#ffd700; }
 <li><b>I Check Nigeria Shipping:</b> Can it ship to Abuja? Is voltage 220V? Is warranty valid at Slot or 3Star?</li>
 <li><b>Prices in Naira:</b> I update prices weekly from Jumia, Slot, Konga.</li>
 </ol>
-
 <section class="author-footer-card">
   <h3>About the Reviewer: Yusuf Yahaya</h3>
   <p><strong>Yusuf Yahaya</strong> is an independent tech reviewer based in Abuja, Nigeria. Every earbud, power bank, smartwatch, and laptop featured on Halal Income Tech is purchased independently and tested for at least 14 days under real Nigerian power and weather conditions.</p>
@@ -213,9 +217,9 @@ footer a:hover { color:#ffd700; }
 </section>
 </div>
 <footer>
-  <p><a href="index.html">Home</a> | <a href="about.html">About Yusuf Yahaya</a> | <a href="contact.html">Contact</a> | <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms.html">Terms &amp; Disclaimer</a> | <a href="disclaimer.html">Disclaimer</a> | <a href="sitemap.xml">Sitemap</a></p>
+  <p><a href="index.html">Home</a> | <a href="about.html">About Yusuf Yahaya</a> | <a href="contact.html">Contact</a> | <a href="privacy-policy.html">Privacy Policy</a> | <a href="cookie-policy.html">Cookie Policy</a> | <a href="terms.html">Terms &amp; Disclaimer</a> | <a href="disclaimer.html">Disclaimer</a> | <a href="sitemap.xml">Sitemap</a></p>
   <p style="font-size:14px; color:#bbb;">&copy; 2026 Halal Income Tech (halal-income.com.ng). Independent Gadget Reviews in Nigeria.</p>
-  <p style="font-size:13px; color:#999;">This site uses cookies and Google AdSense to show ads. See our Privacy Policy for details.</p>
+  <p style="font-size:13px; color:#999;">This site uses cookies and Google AdSense to show ads. See our <a href="privacy-policy.html" style="color:#999;">Privacy Policy</a> and <a href="cookie-policy.html" style="color:#999;">Cookie Policy</a> for details.</p>
 </footer>
 <script>
 const micBtn = document.getElementById('mic');
