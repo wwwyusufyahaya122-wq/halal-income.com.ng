@@ -1,26 +1,23 @@
 # Halal Income Tech - halal-income.com.ng
 
-**The #1 Site for Gadget Reviews & Tech Deals in Nigeria 2026**
+Learn How To Buy, Fix & Use Gadgets in Nigeria - No Fake Reviews.
 
-We test and review the best tech gadgets in Nigeria. Laptops, wireless earbuds, smartwatches, phones & more. Real testing, real prices in ₦.
+We test gadgets with our own money in Abuja - power banks, phones, laptops, chargers - and teach you how to check before you buy.
 
-### What We Do
-- **Honest Reviews**: We buy and test every gadget for 14 days before recommending
-- **Nigeria Focus**: Prices in Naira. Warranty info. Where to buy in Lagos, Abuja, PH
-- **No Sponsored Posts**: We spend our own money so our reviews are 100% unbiased
+## What We Do
+- Honest Guides: We buy and test every gadget before we write.
+- Nigeria Focus: Prices in Naira. Warranty info. Where to buy in Lagos, Abuja, PH.
+- No Sponsored Reviews: We do NOT take money from brands to write good reviews.
 
-### Featured Categories
-- [Best Wireless Earbuds in Nigeria](best-wireless-earbuds.html)
-- [Best Budget Laptops Under ₦500,000](best-budget-laptop.html) 
-- [Best Smartwatches in Nigeria](best-smartwatch.html)
-- [Buying Guides](how-to-choose-laptop.html)
+## Guides
+- How To Spot Fake Oraimo Power Bank in 30 Seconds
+- Why Your Phone Battery Drains Fast in Nigeria
+- How To Choose A Laptop For University in Nigeria
 
-### Website
+## Website
 Live Site: https://halal-income.com.ng
 
-### Contact
-Email: contact@halal-income.com.ng
-WhatsApp: +234 XXXX
-
----
-© 2026 Halal Income Tech. As an Amazon Associate we earn from qualifying purchases.
+## Contact
+Email: info@halal-income.com.ng
+Author: Yusuf Yahaya, Abuja
+LinkedIn: https://www.linkedin.com/in/yusuf-yahaya-269837401/
